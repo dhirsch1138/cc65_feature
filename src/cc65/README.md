@@ -7,7 +7,7 @@ cc65 is a complete cross development package for 65(C)02 systems, including a po
 
 ```json
 "features": {
-    "ghcr.io/dhirsch1138/cc65_feature/cc65:1": {}
+    "ghcr.io/dhirsch1138/cc65_feature/cc65:2": {}
 }
 ```
 

@@ -1,0 +1,28 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "json.schemas": [
+                    {
+                        "fileMatch": [
+                            "*/devcontainer-feature.json"
+                        ],
+                        "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"
+                    }
+                ]
+            },
+            "extensions": [
+                "mads-hartmann.bash-ide-vscode",
+                "github.vscode-github-actions",
+                "ms-vscode.makefile-tools",
+                "tlgkccampbell.code-ca65"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    }
+    //"remoteUser": "",
+    //"updateContentCommand": ""
+}

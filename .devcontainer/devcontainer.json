@@ -22,7 +22,8 @@
     },
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-    }
+    },
+    "workspaceMount": "source=${localWorkspaceFolder}/.c65,target=/workspace/.c65,type=bind,consistency=cached", "workspaceFolder": "/workspace"
     //"remoteUser": "",
     //"updateContentCommand": ""
 }

@@ -27,5 +27,5 @@
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ],
-    "postCreateCommand":"touch ./testfile2"
+    "postCreateCommand":"touch ./testfile2 && pwd > ./testfile2"
 }

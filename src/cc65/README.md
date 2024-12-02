@@ -15,8 +15,7 @@ cc65 is a complete cross development package for 65(C)02 systems, including a po
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| firmwarepath | What path will the firmware.cfg file be? | string | .cc65/firmware/ |
-| sourcepath | What path will the source files be in? | string | source/ |
+
 
 
 

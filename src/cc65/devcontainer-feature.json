@@ -1,29 +1,9 @@
 {
     "name": "CC65 Development Package",
     "id": "cc65",
-    "version": "2.0.6",
+    "version": "2.0.7",
     "description": "cc65 is a complete cross development package for 65(C)02 systems, including a powerful macro assembler, a C compiler, linker, librarian and several other tools. https://cc65.github.io/",
-    "options": {
-        "firmwarepath": {
-            "type": "string",
-            "proposals": [
-                "./",
-                ".cc65/firmware/",
-                "firmware/"
-            ],
-            "default": ".cc65/firmware/",
-            "description": "What path will the firmware.cfg file be?"
-        },
-        "sourcepath": {
-            "type": "string",
-            "proposals": [
-                "./",
-                "source/"
-            ],
-            "default": "source/",
-            "description": "What path will the source files be in?"
-        }
-    },
+    "options": {},
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]

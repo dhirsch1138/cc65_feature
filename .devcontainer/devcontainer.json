@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
     "customizations": {
         "vscode": {
             "settings": {
@@ -14,19 +14,11 @@
             },
             "extensions": [
                 "mads-hartmann.bash-ide-vscode",
-                "github.vscode-github-actions",
-                "ms-vscode.makefile-tools",
-                "tlgkccampbell.code-ca65"
+                "github.vscode-github-actions"
             ]
         }
     },
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-    },
-    "mounts": 
-    [
-            "source=${localWorkspaceFolder}/.c65,target=/.c65,type=bind,consistency=cached"
-    ]
+    "features": {}
     
     //"remoteUser": "",
     //"updateContentCommand": ""

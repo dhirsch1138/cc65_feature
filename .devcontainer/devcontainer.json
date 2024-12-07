@@ -18,10 +18,7 @@
             ]
         }
     },
-    "features": {"ghcr.io/devcontainers-extra/features/apt-get-packages:1": {
-        "packages": "cc65, build-essential"
-    }}
-    
+    "features": {}
     //"remoteUser": "",
     //"updateContentCommand": ""
 }

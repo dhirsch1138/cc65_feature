@@ -1,10 +1,11 @@
 {
     "name": "CC65 Development Package",
     "id": "cc65",
-    "version": "2.0.9",
+    "version": "2.0.10",
     "description": "cc65 is a complete cross development package for 65(C)02 systems, including a powerful macro assembler, a C compiler, linker, librarian and several other tools. https://cc65.github.io/",
     "options": {},
     "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers-extra/features/apt-get-packages:1"
     ]
 }
